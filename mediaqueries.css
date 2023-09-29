@@ -98,4 +98,8 @@
   .text-container {
     text-align: justify;
   }
+  .projects-container {
+    gap: 0rem;
+    margin: 6rem;
+  }
 }

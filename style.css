@@ -363,7 +363,12 @@ article {
 article .icon {
   cursor: default;
 }
-
+h2:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: (181, 181, 181);
+}
 /* PROJECTS SECTION */
 
 #projects {
@@ -391,6 +396,29 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+.projects-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: black;
+    border-radius: 1rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.projects-container, h4{
+  color: white;
+  font-size: medium;
+}
+
+h4:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: (181, 181, 181);
+  margin-bottom: 4cm;
+  text-align: center;
+}
 /* CONTACT */
 
 #contact {

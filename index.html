@@ -7,6 +7,8 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <!--Font Awesome-->
+ <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css" />
   </head>
   <body>
     <nav id="desktop-nav">
@@ -29,7 +31,9 @@
           <span></span>
         </div>
         <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#about" onclick="toggleMenu()">
+            <i class="fa fa-id-card-o"></i>About</a>
+          </li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
@@ -71,6 +75,12 @@
           />
         </div>
       </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
     </section>
     <!--END PROFILE-->
     <!--ABOUT ME-->
@@ -259,10 +269,14 @@
     </section>
     <!--END EXPERIENCE-->
     <!--PROJECTS-->
-    <!--<section id="projects">
+    <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
+      <div class="projects-container">
+        <h4>COMING SOON!!</h4>
+      </div>
+      
+      <!--<div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
